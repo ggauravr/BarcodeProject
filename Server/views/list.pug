@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1= 'Showing products in the Barcode database'
+  table
+    tr
+      th= 'Product Name'
+      th= 'UPC Code'
+    for product in products
+      tr
+        td= product.product_name
+        td= product.upc

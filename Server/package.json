@@ -1,0 +1,33 @@
+{
+  "name": "barcode-server",
+  "description": "Server handling the database of UPC barcodes",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Gaurav Ramesh",
+  "engines": {
+    "node": ">=4.3.2"
+  },
+  "scripts": {
+    "start": "node ./bin/www",
+    "lint": "./node_modules/.bin/eslint models/ routes/",
+    "test": "mocha ./test/*.test.js"
+  },
+  "dependencies": {
+    "@google-cloud/datastore": "^0.6.0",
+    "body-parser": "1.15.2",
+    "cookie-parser": "1.4.3",
+    "debug": "2.3.2",
+    "express": "4.14.0",
+    "morgan": "1.7.0",
+    "pug": "2.0.0-beta6",
+    "serve-favicon": "2.3.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.12.2",
+    "eslint-config-google": "^0.7.1",
+    "mocha": "^3.2.0",
+    "proxyquire": "^1.7.10",
+    "supertest": "^2.0.1"
+  }
+}

@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1= title
+
+  .main.container
+      form(method='POST' action='/barcodes')
+          div.form-group
+            label(for='product_name') Product Name:
+            input#name.form-control(type='text', placeholder='Enter the product name' name='product_name')
+          div.form-group
+            label(for='upc') UPC Code:
+            input#email.form-control(type='text', placeholder='12YERER4545455' name='upc')
+          button.btn.btn-primary(type='submit') Add Product
+          button.btn.btn-secondary(type='reset') Reset Form
