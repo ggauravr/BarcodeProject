@@ -1,13 +1,12 @@
-## Express.js on Google App Engine
+## Server Component for Barcode Scanner App
 
-> [Express][1] is a minimal and flexible Node.js web application framework that
-provides a robust set of features for web and mobile applications.
+Hosted on Google App Engine, built on top of [Express.js][1]
 
-Read the [Express.js on App Engine Tutorial][2] for how to run and deploy this
-sample app.
+#### Routes
 
-You can also view the [live demo][3] and read the [Express.js documentation][1].
+1. [Home Page/Add Product][2]
+2. [List of Barcodes][3]
 
 [1]: http://expressjs.com/
-[2]: https://cloud.google.com/nodejs/resources/frameworks/express
-[3]: http://express-dot-nodejs-docs-samples.appspot.com
+[2]: https://barcodes-152422.appspot-preview.com/barcodes/pages/add
+[3]: https://barcodes-152422.appspot-preview.com/barcodes/pages/list

@@ -1,14 +1,17 @@
-#### `Run example`
+### react-native Client Component for Barcode Scanner App
 
 From project root run through cli:
-- `cd Example/`
 - `npm install`
 
 For Android:
-- `adb reverse tcp:8081 tcp:8081` or in Dev Settings input COMPUTER_IP:8081 for debug server
+
+- `npm start` to start the react-native bundler
+
+- `curl "http://localhost:8081/index.android.bundle?platform=android" -o "android/app/src/main/assets/index.android.bundle"` - for Android < 5
+
 - `react-native run-android`
 
-For iOS build:
-- Open Example.xcodeproj with XCode
-- Change IP for jsCodeLocation in AppDelegate.m file
-- Run from XCode
+#### Screens
+
+
+**[PS]: Tested on Android 4.4 KitKat**

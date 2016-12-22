@@ -1,6 +1,6 @@
 import React from 'react';
 import { AppRegistry } from 'react-native';
 
-import Example from './Example';
+import BarcodeScanner from './BarcodeScanner';
 
-AppRegistry.registerComponent('Example', () => Example);
+AppRegistry.registerComponent('BarcodeScanner', () => BarcodeScanner);
