@@ -2,6 +2,8 @@
 
 Hosted on Google App Engine, built on top of [Express.js][1]
 
+Interface to add barcodes can be found at: [https://barcodes-152422.appspot-preview.com/barcodes/pages/add](https://barcodes-152422.appspot-preview.com/barcodes/pages/add)
+
 #### Routes
 
 - [Home Page/Add Product][2]
